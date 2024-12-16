@@ -17,6 +17,7 @@ public class KadaiFirstController {
 	    String month = date.substring(4,6);
 	    String day = date.substring(6,8);
 
+
 	    // 年、月、日を整数型に変換
         int intYear = Integer.parseInt(year);
         int intMonth = Integer.parseInt(month) - 1;  // 月は0から始まるため、1月は0として設定
