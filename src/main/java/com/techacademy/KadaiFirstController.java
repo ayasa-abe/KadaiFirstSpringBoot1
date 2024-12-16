@@ -58,7 +58,7 @@ public class KadaiFirstController {
 
         // 結果を返す
 
-		return "Tuesday";
+		return dayOfWeekString;
 	}
 
 
